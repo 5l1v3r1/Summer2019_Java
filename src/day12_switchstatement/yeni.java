@@ -8,7 +8,7 @@ public class yeni {
 		/*
 		 switch statement does the similar thing like else if satement does, multi branch if statement yani.
 		 expression must be evaluate to a single value(character, digits or text)
-		 therefore 4 datatypes are not accepted
+		 therefore 4 data types are not accepted
 		 
 		 double a= 10L, 10D, 10D;
 		 float a = 10F, 10f;
@@ -46,6 +46,8 @@ public class yeni {
 			System.out.println("invalid");
 		}
 		
+		
+		
 		switch(score) { //must give an expression: data
 		case 1:
 			System.out.println("1");
@@ -55,7 +57,7 @@ public class yeni {
 		    break;
 		    
 		default:
-			System.out.println("invalid");
+			System.out.println("invalidooo");
 		    break;
 		    
 		}
