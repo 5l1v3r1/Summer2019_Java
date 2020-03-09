@@ -32,6 +32,8 @@ public class forEach_loop {
 		System.out.println();
 		System.out.println("====================");
 		
+	//=====================INTEAD OF THAT============================================	
+		
 		for(int each : arr) {
 			System.out.print(each+" ");
 		}

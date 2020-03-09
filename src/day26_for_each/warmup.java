@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class warmup {
 	public static void main(String[] args) {
 		
-		// remove duplicates
+		// remove duplicates first
 		String a = "aabbbc", b= "cabccaabbbaa";
 		
 		String a1 = ""; //storage

@@ -1,7 +1,5 @@
 package Day_27_CustomMethods;
 
-import java.util.Arrays;
-
 public class PracticeMethods {
 	
 	public static void main(String[] args) {
@@ -23,7 +21,6 @@ public class PracticeMethods {
 	}
 
 	
-	
 	public static void RemoveDuplicates (String a) {
 		
 		
@@ -36,23 +33,5 @@ public class PracticeMethods {
 		System.out.println(result);
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }

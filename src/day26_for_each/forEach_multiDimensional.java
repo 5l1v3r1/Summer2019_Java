@@ -1,12 +1,9 @@
 package day26_for_each;
 
-import java.util.Arrays;
-
 public class forEach_multiDimensional {
+	
 	public static void main(String[] args) {
 		
-		
-		int[] arr1D = {1,2,3,4};
 		
 		int[][] arr2D = {  {1,2,3,4} , {5,6,7,8}  };
 		      // index:        0           1
@@ -62,66 +59,7 @@ public class forEach_multiDimensional {
 				}
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 	}
 
 }

@@ -32,30 +32,6 @@ public class warmup_01 {
 		
 		System.out.println("second max is: "+secmax);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }

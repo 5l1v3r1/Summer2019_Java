@@ -47,31 +47,7 @@ public class methods_2 {
 		  n dimensional array contains(n-1) dimensional array
 		 
 		 */
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 	}
 
 }

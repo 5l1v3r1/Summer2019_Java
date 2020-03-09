@@ -16,34 +16,34 @@ public class methodOverloading {
 		// overload method ex: the sort methods of arrays class, it accepts all data type
 		
 		int[]arr= {1,2,3,4,5};
-		Sort(arr);
+		SortReverse(arr);
 		
 		System.out.println();
 		
 		char[] ch = {'a','b','c'};
-		Sort(ch);
+		SortReverse(ch);
 		
 		System.out.println();
 		
 		String[] str = {"A","B","C","D"};
-		Sort(str);
+		SortReverse(str);
 	}
 	
-	public static void Sort(int[] arr) {
+	public static void SortReverse(int[] arr) {
 		Arrays.sort(arr);
 		for(int i = arr.length-1; i>=0;i--) {
 			System.out.print(arr[i]+" ");
 		}
 	}
 	
-	public static void Sort(char[]arr) {
+	public static void SortReverse(char[]arr) {
 		Arrays.sort(arr);
 		for(int i = arr.length-1; i>=0;i--) {
 			System.out.print(arr[i]+" ");
 		}
 	}
 	
-	public static void Sort(String[]arr) {
+	public static void SortReverse(String[]arr) {
 		Arrays.sort(arr);
 		for(int i = arr.length-1; i>=0;i--) {
 			System.out.print(arr[i]+" ");
@@ -61,9 +61,6 @@ public class methodOverloading {
 	public static double sum(double a, double b) {
 		return a+b;
 	}
-	
-	
-	
 	
 	
 }

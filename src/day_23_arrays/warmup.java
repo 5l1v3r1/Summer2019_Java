@@ -50,8 +50,6 @@ public class warmup {
 			B=num1;
 		}
 		
-		
-		
 		if(num2 != 0) {
 		
 		while(num1 >= num2) {
@@ -62,23 +60,6 @@ public class warmup {
 			System.out.println("invalid entry");
 		}
 		System.out.println("division is: "+result+" with a remainder of: "+num1);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 

@@ -60,7 +60,7 @@ public class returnMethodsPractice {
     public static int additiion(int a, int b) {
         return a+b;
     }
-    // write ba method that accepts 3 numbers and returns the largest number
+    // write a method that accepts 3 numbers and returns the largest number
     
     public static double greaterNumber(int a, int b, int c) {
         int[] arr = { a, b, c };
