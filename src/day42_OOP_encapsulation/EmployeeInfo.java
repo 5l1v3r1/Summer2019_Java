@@ -3,10 +3,10 @@ package day42_OOP_encapsulation;
 public class EmployeeInfo {
 	
 	  /*
-    Name
-    SSN
-    Age
-    Salary
+			    Name
+			    SSN
+			    Age
+			    Salary
     */
 
    private String Name;

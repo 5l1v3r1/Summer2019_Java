@@ -34,7 +34,7 @@ public class WrapperClass {
 		Double D = 5.5;
 		
 		long l = 20L;
-		Long L = l;
+		Long L = l;  
 		
 		System.out.println(L);
 		

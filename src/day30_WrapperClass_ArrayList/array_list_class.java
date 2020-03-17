@@ -16,7 +16,7 @@ public class array_list_class {
 	                             
 	             ArrayList vs Array:
 	             1. Array's size fixed, ArrayList' size is dynamic
-	             2. Array support primitive and non-primitives, digeri not support primitive
+	             2. Array support primitive and non-primitives, ArrayList not support primitive
 	             3. Array can be multi-dimentional but arraylist cannot.
 	             
 	          
@@ -27,9 +27,10 @@ public class array_list_class {
 	           |   .get(indexNumber) ==> get the specific index value    |
 	           |   .size() ==> get the size of the ArrayList             |
 	           |   .clear() ==> remove all the values of the ArrayList   |
-	           |   Collections.sort(VariableName) ==> sort the ArrayList
-	               Arrays.asList(Object Array): used for converting array to ArrayList
-	           
+	           |   Collections.sort(VariableName) ==> sort the ArrayList |
+	           |   Arrays.asList(Object Array): used for converting      |
+	           |                                     array to ArrayList  |
+	           |                                                         |
 	           |---------------------------------------------------------|
 	 */
 

@@ -5,7 +5,8 @@ public class StaticKeyword {
 	/*
 	 static: means that we can access the members through the class name
 	 
-	    static members belongs to the class, also called class members
+	    static members belongs to the class, also called class members 
+	    				static members == class members
 	    
 	 what can be static in java: 
 	               1. static variables (class, global)
@@ -52,7 +53,7 @@ public class StaticKeyword {
 		   
 		   StaticKeyword obj3 = new StaticKeyword();
 		              obj3.a = 100;
-		              System.out.println(obj3.a);
+		              System.out.println(obj3.a);	
 		              
 		              StaticKeyword obj4 = new StaticKeyword();
 		              System.out.println(obj4.a);
@@ -65,14 +66,5 @@ public class StaticKeyword {
 		   
 		              
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }

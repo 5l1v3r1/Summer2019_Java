@@ -1,6 +1,5 @@
 package day45_inheritance;
 
-
 class TestBase { // super class
 	
       static String chromeDriver; // default
@@ -11,6 +10,7 @@ class TestBase { // super class
 	
       private static void closebrowser() {    //  its not going to be inheritable
     	  System.out.println("browser closed");
+    	  
       }
       
 }
@@ -31,6 +31,7 @@ public class Inheritance extends TestBase{
 	public static void main(String[] args) {
 		System.out.println(chromeDriver);
 		takescreenshot();
+		
 	}                                   
 	
 }

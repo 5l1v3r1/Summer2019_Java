@@ -24,10 +24,10 @@ public class MethodOverRiding extends student{
    public static void main(String[] args) {
 	
 	   student obj2 = new student();
-	   obj2.printname();
+	   obj2.printname(); // coco
 	   
 	   MethodOverRiding obj = new MethodOverRiding();
-	   obj.printname();
+	   obj.printname(); // yoyo
 }
 
 

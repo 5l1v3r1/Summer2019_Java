@@ -2,7 +2,7 @@ package day46_SuperKeyword;
 
 class B {
 	
-	public B() {
+	public B() {    // super class's constructor
 		System.out.println("super");
 	}
 }

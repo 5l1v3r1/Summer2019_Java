@@ -24,9 +24,7 @@ public class InheritanceReview extends Data{
 	//	System.out.println(num3); no no no 
 		System.out.println(num4);
 		
-		ProtectedVariables obj3 = new ProtectedVariables(); // day45's class
-		
-		System.out.println(obj3.namepublic); // works. only the public
+		System.out.println(ProtectedVariables.namepublic); // works. only the public  // day45's class
 		
 		
 		

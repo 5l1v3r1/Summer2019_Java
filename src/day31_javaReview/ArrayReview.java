@@ -18,7 +18,7 @@ public class ArrayReview {
     		System.out.println("enter a number");
     		arr[i] = scan.nextInt();
     	}
-    	System.out.println(Arrays.toString(arr));
+    	System.out.println(Arrays.toString(arr)); // [2, 5, 8]
     	Arrays.sort(arr);
     	System.out.println("minimum value: "+arr[0]);
     	System.out.println("maximum value: "+ arr[arr.length-1]);

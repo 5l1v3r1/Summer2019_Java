@@ -10,7 +10,7 @@ class B extends A {
 	public String name3 = "kopoBka";
 }
 
-public class Inheritance extends B {
+public class Inheritance extends B {    ///////  MAIN CLASS IS HERE
 	
 //  public String name = "lolipop";
 //	public String name2 = "kraker";

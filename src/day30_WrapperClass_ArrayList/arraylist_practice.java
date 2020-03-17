@@ -11,8 +11,9 @@ public class arraylist_practice {
 		            nameList.add("burda ne isin var");
 		            System.out.println(nameList);
 		            
-		            Scanner scan = new Scanner(System.in);
+		///////////////////////////////////////////////////////////////////////            
 		            
+		            Scanner scan = new Scanner(System.in); 
 		            ArrayList<String> studentNames = new ArrayList<>();
 		          
 		         while(true) {

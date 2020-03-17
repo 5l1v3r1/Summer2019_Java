@@ -33,7 +33,7 @@ public class arraylistMethods {
 		// lastIndexOf(object): returns the last index number of the given object from the ArrayList
 		
 		int b = list.lastIndexOf(2);
-		System.out.println(b);
+		System.out.println("this is the lastindexof methods "+b);
 		
 		//Arrays.asList(Object Array): used for converting array to ArrayList
 		

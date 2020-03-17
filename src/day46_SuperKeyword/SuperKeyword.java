@@ -6,11 +6,11 @@ class A {
 	String name = "koko";
 	
 	public void methodA() {
-		
+		System.out.println("methodA printed");
 	}
 	
-	public A (int a) {
-		
+	public A (int a) {   // constructor
+		System.out.println(a);
 	}
 }
 
@@ -19,7 +19,7 @@ class A {
 public class SuperKeyword extends A {
   //           sub              super
 	
-	public SuperKeyword(double a) {
+	public SuperKeyword(double a) {   // constructor
 		super(4); // super class constructor must be called in the sub class
 	}
 	
@@ -28,7 +28,7 @@ public class SuperKeyword extends A {
 	     
 	     super keyword can only be used in the sub class
 	      
-	      this. vs super. : (this.)used for calling the instances from the class itself. to use it we don't need inheritance
+	      this. vs super. : (this.)used for calling the instances from the class itself. to use it, we don't need inheritance
 	       
 	       (super.) used for calling the instances from the super class. we must have super class and sub class
 	       
@@ -46,7 +46,10 @@ public class SuperKeyword extends A {
 		this.methodA();
 	}
 	
-	
+	public static void main(String[] args) {
+		SuperKeyword obj = new SuperKeyword(1.0);
+		obj.method();
+	}
 	
 	
 }

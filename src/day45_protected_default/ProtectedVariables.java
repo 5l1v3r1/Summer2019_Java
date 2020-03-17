@@ -2,7 +2,7 @@ package day45_protected_default;
 
 public class ProtectedVariables {
 	
-	protected String name = "mojojojo";
-	public String namepublic = "jj";
+	protected static String name = "protected static String name";
+	public static String namepublic = "public static String namepublic";
 
 }

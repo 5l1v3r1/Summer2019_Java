@@ -32,10 +32,6 @@ public class staticVariables {
 		staticVariables object2 = new staticVariables();
 		System.out.println(object2.staticnum); // 4.5
 		
-		
-		
-		
-		
 	}
 
 	
